@@ -19,6 +19,7 @@ class model_free_primal_dual:
             if (i%500==0):
                 print(i)
                 print(theta)
+                print("hello")
 
         self.phi.params = theta
         return self.phi
